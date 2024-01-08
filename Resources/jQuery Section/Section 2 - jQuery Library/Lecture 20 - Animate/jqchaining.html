@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#square").hide(3000);
+            alert("The Square is Hidden");
+    }); 
+
+});
+</script>
+
+<style>
+
+#square{
+	background:blue;
+	height:160px;
+	width:160px;
+	margin-top:5px;
+	position:absolute;
+}
+
+</style>
+</head>
+<body>
+
+<!-- <button>Star Animation</button> -->
+
+
+
+<!-- <button id="stop">Stop</button> -->
+<button>Hide</button>
+<div id="square"></div>
+</body>
+</html>

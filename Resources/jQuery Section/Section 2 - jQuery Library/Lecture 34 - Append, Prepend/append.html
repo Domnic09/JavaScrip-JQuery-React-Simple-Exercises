@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#btn1").click(function(){
+        $("p").append(" <b>Swifties</b>.");
+    });
+
+    $("#btn2").click(function(){
+        $("ol").append("<li>Taylor Swift</li>");
+    });
+});
+</script>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+
+<ol>
+  <li>Baseball</li>
+  <li>Basketball</li>
+  <li>Football</li>
+</ol>
+
+<button id="btn1">Swifties</button>
+<button id="btn2">Taylor Swift</button>
+
+</body>
+</html>
